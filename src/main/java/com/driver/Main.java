@@ -1,6 +1,9 @@
 package com.driver;
 
 public class Main {
+    public Main() {
+
+    }
     public static void main(String[] args) {
         // Task 2: Creating an object of the Product class
         Product p = new Product();
@@ -10,18 +13,21 @@ public class Main {
 
         // Now you can work with the 'p' object as needed
     }
-    public static class Product{
+     static class Product{
+        Product() {
+
+        }
 
         public int product(int x, int y) {
-//            System.out.println("first product");
+            System.out.println("first product");
             return x+y;
         }
         public int product(int x, int y, int z) {
-//            System.out.println("second product");
+            System.out.println("second product");
             return x+y+z;
         }
         public double product(double x, double y) {
-//            System.out.println("third product");
+            System.out.println("third product");
             return x+y;
         }
     }
