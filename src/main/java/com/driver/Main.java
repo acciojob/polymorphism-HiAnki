@@ -10,7 +10,7 @@ public class Main {
 
         // Now you can work with the 'p' object as needed
     }
-    static class Product{
+    public static class Product{
 
         public int product(int x, int y) {
 //            System.out.println("first product");
